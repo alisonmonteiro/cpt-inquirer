@@ -1,0 +1,41 @@
+{
+  "name": "cpt-inquirer",
+  "version": "0.0.1",
+  "description": "CPT Inquirer",
+  "license": "MIT",
+  "repository": "alisonmonteiro/cpt-inquirer",
+  "author": {
+    "name": "Alison",
+    "email": "alisonmonteiro.10@gmail.com",
+    "url": "alisonmonteiro.com.br"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "wordpress",
+    "cpt",
+    "custom",
+    "post",
+    "node",
+    "alison",
+    "monteiro",
+    "cli-app",
+    "cli"
+  ],
+  "dependencies": {
+    "slugify": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.15.0"
+  }
+}
