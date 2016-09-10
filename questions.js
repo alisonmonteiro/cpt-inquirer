@@ -6,8 +6,7 @@ module.exports = [
 	{
 		type: 'input',
 		name: 'name',
-		message: 'Singular name:',
-		default: 'Vídeo'
+		message: 'Singular name:'
 	},
 	{
 		name: 'pluralName',
