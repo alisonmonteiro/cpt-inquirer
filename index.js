@@ -42,5 +42,6 @@ function ${options.slugUnderline}_registrer() {
 
 	register_post_type('${options.slug}', $args);
 	add_action('init', '${options.slugUnderline}_registrer');
-}`;
+}
+`;
 };

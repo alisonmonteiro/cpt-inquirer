@@ -1,6 +1,7 @@
 'use strict';
 
 const slugify = require('slugify');
+const defaultPath = process.cwd();
 
 module.exports = [
 	{
@@ -56,5 +57,11 @@ module.exports = [
 		name: 'hasArchive',
 		message: 'Has archive?',
 		default: true
+	},
+	{
+		type: 'input',
+		name: 'saveOn',
+		message: 'Save on ("c" do console.log):',
+		default: defaultPath
 	}
 ];
